@@ -1,22 +1,58 @@
-# power-bi-_contracts_dashboard
-Organizations struggle to track contract lifecycle and financial exposure efficiently.
-This project presents a fully interactive Power BI dashboard built on a structured contracts database. The solution transforms raw contract data into actionable insights by leveraging data modeling, DAX calculations, and performance-driven KPIs.  Key Features:  Contract lifecycle analysis (Active, Expired, Renewals Due)  Financial exposure tracking
-1. Data Model
-6 tables
-star schema
-relatioships
-2. Key DAX Measure
+📊 Power BI Contracts Dashboard
+📌 Project Overview
+This project presents a fully interactive Power BI dashboard designed to analyze and monitor contract lifecycle performance and financial exposure.
+The solution transforms structured contract data into actionable business insights using data modeling, DAX calculations, and performance-driven KPIs.
+
+🎯 Business Problem
+Organizations often struggle to:
+Track active vs expired contracts
+Monitor upcoming renewals
+Measure total financial exposure
+Identify revenue risks and opportunities
+This dashboard provides a centralized, real-time analytical view to support decision-making.
+
+🗂 Data Model
+Structured contracts dataset
+Star schema design
+Fact table: Contracts
+Dimension tables: Date, Client, Contract Type
+Optimized relationships for performance
+
+🧠 Key DAX Measures
+Total Contracts
 Active Contracts
 Expired Contracts
-Renewal Rate %
+Renewal Due (Next 90 Days)
 Total Contract Value
-3.KPIs
-Total Contracts
-Active vs Expired %
-Revenue Exposure
-Upcoming Renewals (Next 90 days)
-4.Tools Used
+Financial Exposure
+Renewal Rate %
+
+📈 Key KPIs
+Active vs Expired Ratio
+Revenue at Risk
+Upcoming Renewals
+Contract Value Distribution
+Lifecycle Status Breakdown
+
+🛠 Tools & Technologies
 Power BI
 DAX
 Power Query
+Data Modeling
 Excel
+
+🖼 Dashboard Preview
+🚀 Key Insights Delivered
+Clear visibility into contract lifecycle
+Identification of revenue risk areas
+Improved renewal tracking
+Financial exposure monitoring
+
+🔮 Future Improvements
+Automated data refresh integration
+Predictive renewal forecasting
+Role-level security implementation
+
+💼 About the Author
+Business Intelligence & Data Analytics Enthusiast
+Focused on transforming raw data into strategic insights.
